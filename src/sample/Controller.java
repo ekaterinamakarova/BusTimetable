@@ -47,8 +47,6 @@ public class Controller {
     public void initialize() {
         logger.info("Initialization...");
 
-        // Setting default Type values
-        comboBoxType.getItems().addAll(BusType.values());
     }
 
     public void clearInterface() {
@@ -78,9 +76,6 @@ public class Controller {
 
         // Date
         datePickerDate.setValue(LocalDate.now());
-
-        // Setting type of bus
-        comboBoxType.setValue(bus.getType());
 
         // Setting from & destination fields
         textFieldFrom.setText(bus.getFrom());
@@ -226,7 +221,6 @@ public class Controller {
             currentBus.setName(textFieldBus.getText());
             currentBus.setFrom(textFieldFrom.getText());
             currentBus.setDestination(textFieldDestination.getText());
-            currentBus.setType((BusType) comboBoxType.getValue());
         }
     }
 

@@ -7,7 +7,6 @@ public class Bus {
     private String name;
     private String from;
     private String destination;
-    private BusType type = BusType.Standart;
     private ArrayList<BusStop> busStops = new ArrayList<BusStop>();
 
     public Bus() {
@@ -17,15 +16,6 @@ public class Bus {
         this.setName(name);
         this.from = from;
         this.destination = destination;
-    }
-
-
-    public BusType getType() {
-        return type;
-    }
-
-    public void setType(BusType type) {
-        this.type = type;
     }
 
     public String getName() {

@@ -1,0 +1,17 @@
+#body{
+    -fx-background-image: url('background.jpg');
+    -fx-background-size: 640, 320;
+    -fx-background-repeat: no-repeat;
+}
+
+.button{
+    -fx-background-color: #000000;
+}
+
+.label{
+    -fx-color: #FFFFFF;
+}
+
+.comboBox{
+    -fx-background-color: #000000;
+}
