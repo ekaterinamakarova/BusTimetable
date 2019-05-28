@@ -12,6 +12,20 @@
     -fx-color: #FFFFFF;
 }
 
-.comboBox{
+.combo-box{
     -fx-background-color: #000000;
+}
+
+.combo-box .text-field {
+    -fx-color: #FFFFFF;
+}
+
+.text-field{
+ -fx-border-color: black;
+   -fx-border-width: 2;
+}
+
+.text-area{
+ -fx-border-color: black;
+   -fx-border-width: 2;
 }
